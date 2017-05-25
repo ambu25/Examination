@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Node.js\\nodejs\\node.exe',
+1 verbose cli   'D:\\Node.js\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle exam@1.0.0~prestart: exam@1.0.0
+6 silly lifecycle exam@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle exam@1.0.0~start: exam@1.0.0
+8 verbose lifecycle exam@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle exam@1.0.0~start: PATH: D:\Node.js\nodejs\node_modules\npm\bin\node-gyp-bin;D:\Node.js\nodejs\workspace\online-examination-system\node_modules\.bin;D:\devenv\jdk\bin;D:\grails-2.5.0\grails-2.5.0\bin;D:\apache-groovy-sdk-2.4.7\groovy-2.4.7\bin;d:\devenv\git\cmd;D:\devenv\TortoiseGit\bin;C:\Windows\System32;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\maven-3.3.9\apache-maven-3.3.9\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;D:\software\nodejs\node_modules\npm\\bin\;D:\Node.js\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Python27;C:\Python27\Lib;C:\Python27\DLLs;C:\Python27\Lib\lib-tk;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\devenv\jdk\bin;C:\Users\Dell\AppData\Roaming\npm
+10 verbose lifecycle exam@1.0.0~start: CWD: D:\Node.js\nodejs\workspace\online-examination-system
+11 silly lifecycle exam@1.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:173:13)
+12 verbose stack     at process.listener (D:\Node.js\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (D:\Node.js\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (D:\Node.js\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:200:44)
+13 verbose cwd D:\Node.js\nodejs\workspace\online-examination-system
+14 error Windows_NT 6.1.7601
+15 error argv "D:\\Node.js\\nodejs\\node.exe" "D:\\Node.js\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v7.4.0
+17 error npm  v4.0.5
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
